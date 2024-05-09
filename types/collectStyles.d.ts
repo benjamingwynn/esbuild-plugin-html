@@ -1,0 +1,1 @@
+export function collectStyles($: import("cheerio").CheerioAPI, dom: import("cheerio").Cheerio<import("cheerio").Document>, options: import("./index").BuildOptions, helpers: import("./index").Helpers): Promise<import("@chialab/esbuild-rna").OnTransformResult[]>;
