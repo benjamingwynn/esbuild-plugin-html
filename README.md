@@ -1,5 +1,7 @@
 ### esbuild-plugin-html
 
+> NOTE: this is now available upstream in `>=0.19.0-beta.1` of `@chialab/esbuild-plugin-html`
+
 `esbuild-plugin-html` with [edoardocavazza's](https://github.com/edoardocavazza) patch for [injecting styles via link elements](https://github.com/chialab/rna/pull/176), stripped from the [rna monorepo](https://github.com/chialab/rna).
 
 This repo is ready-to-go with types and dist already generated. You can just in your `package.json` as a drop-in replacement:
@@ -10,7 +12,7 @@ This repo is ready-to-go with types and dist already generated. You can just in 
 }
 ```
 
-The motivation for this was to get Svelte CSS output with esbuild properly working, specifically for the build system of my [tetromino game](https://github.com/benjamin)
+The motivation for this was to get Svelte CSS output with esbuild properly working, specifically for the build system of my [tetromino game](https://github.com/benjamingwynn/tetromino)
 
 So TLDR this repo is a drop-in replacement for htmlPlugin but allows the following override option:
 
